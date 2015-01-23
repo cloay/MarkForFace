@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView android:id="@+id/about_version_textV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:text="Copyright ©2014 Cloay.com"/>
+</LinearLayout>

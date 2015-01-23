@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/home_imageV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerCrop"/>
+    
+    <Button android:id="@+id/home_camera_btn"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_corner_bg"
+        android:textColor="#fff"
+        android:text="马上自拍一张"/>
+    <Button android:id="@+id/home_select_pic_btn"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/home_camera_btn"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_corner_bg"
+        android:textColor="#fff"
+        android:text="从相册选一张"/>
+</RelativeLayout>
